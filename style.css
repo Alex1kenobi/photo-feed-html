@@ -1,0 +1,62 @@
+
+.wrapper {
+    background-color:#EAEAEA;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton'
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+   
+}
+
+.headerphoto {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-top:5%
+}
+
+.title {
+    margin-left: 2%;
+    font-weight: bold;
+    max-width: 600px;
+}
+.counter { 
+    max-width: 600px;
+    margin-right: 2%;
+
+    
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 540px;
+    margin-top: 1%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: white;
+}
